@@ -1,0 +1,15 @@
+<!-- Metadata header for Evernote notes -->
+
+<snippet>
+	<content><![CDATA[
+---
+Title: ${3/([a-zA-Z]+).org/(?0\L\u$1:)/g}
+Notebook: ${2:Braindump}
+Tags: Sublime, ${1:resource}
+---
+<del>${3:$TM_FILENAME}</del>
+]]></content>
+    <tabTrigger>md</tabTrigger>
+    <scope>text.orgmode</scope>
+    <description>Metadata</description>
+</snippet>

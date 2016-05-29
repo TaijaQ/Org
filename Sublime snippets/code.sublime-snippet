@@ -1,0 +1,11 @@
+<!-- Markdown code brackets -->
+
+
+<snippet>
+	<content><![CDATA[
+`` ${0:$SELECTION} ``
+]]></content>
+    <tabTrigger>z</tabTrigger>
+    <scope>text.orgmode</scope>
+    <description>Code (z)</description>
+</snippet>

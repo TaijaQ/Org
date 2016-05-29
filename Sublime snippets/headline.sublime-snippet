@@ -1,0 +1,12 @@
+<!--Turn pages into Markdown headlines -->
+
+<snippet>
+	<content><![CDATA[
+${1:$TM_CURRENT_LINE}
+${1/^(\w)|([a-zA-Z]+)|\s?(---)\s?/(?0\L\u$1$2:)/g}
+${1/(---\s)?[a-zA-Z](\s---)?|\s/-/g}
+]]></content>
+    <tabTrigger>hl</tabTrigger>
+    <scope>text.orgmode</scope>
+    <description>Markdown headline</description>
+</snippet>

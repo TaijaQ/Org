@@ -1,0 +1,16 @@
+<!--A simple table compatible with GFM -->
+
+<snippet>
+	<content><![CDATA[
+| ${1:Value} | ${2:Description    } |
+| ${1/./-/g} | ${2/./-/g } |
+| ${3:Value} | ${4:Description    } |
+| ${5:Value} | ${6:Description    } |
+| ${7:Value} | ${8:Description    } |
+| ${9:Value} | ${10:Description    } |
+| ${11:Value} | ${12:Description    } |
+]]></content>
+    <tabTrigger>tb</tabTrigger>
+    <scope>text.orgmode</scope>
+    <description>Table start</description>
+</snippet>

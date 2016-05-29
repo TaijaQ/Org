@@ -1,0 +1,12 @@
+<!-- A great way to create an an extrenal links section,
+	with only the internal links within the text -->
+
+
+<snippet>
+	<content><![CDATA[
+{${0:1}} $SELECTION [[${1:http://}]]
+]]></content>
+    <tabTrigger>x</tabTrigger>
+    <scope>text.orgmode</scope>
+    <description>eXternal links</description>
+</snippet>

@@ -1,0 +1,10 @@
+<!--A new table row, compatible with GFM -->
+
+<snippet>
+	<content><![CDATA[
+| ${1:Value} | ${2:Description} |
+]]></content>
+    <tabTrigger>tr</tabTrigger>
+    <scope>text.orgmode</scope>
+    <description>Table row</description>
+</snippet>
